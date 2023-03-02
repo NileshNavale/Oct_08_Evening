@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="8" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-02T19:59:17 IST" name="Suite321" finished-at="2023-03-02T20:00:19 IST" duration-ms="61338">
+    <groups>
+    </groups>
+    <test started-at="2023-03-02T19:59:17 IST" name="ChromeTest" finished-at="2023-03-02T19:59:42 IST" duration-ms="24872">
+      <class name="TestNG.FBcrome">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestNG.FBcrome@333291e3]" started-at="2023-03-02T19:59:17 IST" name="launchBrowser" finished-at="2023-03-02T19:59:21 IST" duration-ms="3190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="test()[pri:0, instance:TestNG.FBcrome@333291e3]" started-at="2023-03-02T19:59:21 IST" name="test" finished-at="2023-03-02T19:59:21 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="goToSignUpForm(java.lang.reflect.Method)[pri:0, instance:TestNG.FBcrome@333291e3]" started-at="2023-03-02T19:59:21 IST" name="goToSignUpForm" finished-at="2023-03-02T19:59:22 IST" duration-ms="1553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestNG.FBcrome.verifyPrivacyPolicyLink() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpForm -->
+        <test-method signature="verifyPrivacyPolicyLink()[pri:0, instance:TestNG.FBcrome@333291e3]" started-at="2023-03-02T19:59:22 IST" name="verifyPrivacyPolicyLink" finished-at="2023-03-02T19:59:29 IST" duration-ms="7069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrivacyPolicyLink -->
+        <test-method is-config="true" signature="closeChildBrowser(org.testng.ITestResult)[pri:0, instance:TestNG.FBcrome@333291e3]" started-at="2023-03-02T19:59:29 IST" name="closeChildBrowser" finished-at="2023-03-02T19:59:29 IST" duration-ms="102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPrivacyPolicyLink status=SUCCESS method=FBcrome.verifyPrivacyPolicyLink()[pri:0, instance:TestNG.FBcrome@333291e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChildBrowser -->
+        <test-method is-config="true" signature="goToSignUpForm(java.lang.reflect.Method)[pri:0, instance:TestNG.FBcrome@333291e3]" started-at="2023-03-02T19:59:29 IST" name="goToSignUpForm" finished-at="2023-03-02T19:59:30 IST" duration-ms="795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestNG.FBcrome.verifycookiesPolicyLink() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpForm -->
+        <test-method signature="verifycookiesPolicyLink()[pri:0, instance:TestNG.FBcrome@333291e3]" started-at="2023-03-02T19:59:30 IST" name="verifycookiesPolicyLink" finished-at="2023-03-02T19:59:35 IST" duration-ms="5267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycookiesPolicyLink -->
+        <test-method is-config="true" signature="closeChildBrowser(org.testng.ITestResult)[pri:0, instance:TestNG.FBcrome@333291e3]" started-at="2023-03-02T19:59:35 IST" name="closeChildBrowser" finished-at="2023-03-02T19:59:36 IST" duration-ms="83" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifycookiesPolicyLink status=SUCCESS method=FBcrome.verifycookiesPolicyLink()[pri:0, instance:TestNG.FBcrome@333291e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChildBrowser -->
+        <test-method is-config="true" signature="goToSignUpForm(java.lang.reflect.Method)[pri:0, instance:TestNG.FBcrome@333291e3]" started-at="2023-03-02T19:59:36 IST" name="goToSignUpForm" finished-at="2023-03-02T19:59:36 IST" duration-ms="778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestNG.FBcrome.verifytermsLink() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpForm -->
+        <test-method signature="verifytermsLink()[pri:0, instance:TestNG.FBcrome@333291e3]" started-at="2023-03-02T19:59:36 IST" name="verifytermsLink" finished-at="2023-03-02T19:59:42 IST" duration-ms="5318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytermsLink -->
+        <test-method is-config="true" signature="closeChildBrowser(org.testng.ITestResult)[pri:0, instance:TestNG.FBcrome@333291e3]" started-at="2023-03-02T19:59:42 IST" name="closeChildBrowser" finished-at="2023-03-02T19:59:42 IST" duration-ms="92" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytermsLink status=SUCCESS method=FBcrome.verifytermsLink()[pri:0, instance:TestNG.FBcrome@333291e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChildBrowser -->
+        <test-method is-config="true" signature="clearPOMObject()[pri:0, instance:TestNG.FBcrome@333291e3]" started-at="2023-03-02T19:59:42 IST" name="clearPOMObject" finished-at="2023-03-02T19:59:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNG.FBcrome@333291e3]" started-at="2023-03-02T19:59:42 IST" name="closeBrowser" finished-at="2023-03-02T19:59:42 IST" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNG.FBcrome -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-03-02T19:59:42 IST" name="FirefoxTest" finished-at="2023-03-02T20:00:19 IST" duration-ms="36429">
+      <class name="TestNG.FBcrome">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestNG.FBcrome@2d7275fc]" started-at="2023-03-02T19:59:42 IST" name="launchBrowser" finished-at="2023-03-02T19:59:53 IST" duration-ms="10661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="test()[pri:0, instance:TestNG.FBcrome@2d7275fc]" started-at="2023-03-02T19:59:53 IST" name="test" finished-at="2023-03-02T19:59:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="goToSignUpForm(java.lang.reflect.Method)[pri:0, instance:TestNG.FBcrome@2d7275fc]" started-at="2023-03-02T19:59:53 IST" name="goToSignUpForm" finished-at="2023-03-02T19:59:55 IST" duration-ms="2230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestNG.FBcrome.verifyPrivacyPolicyLink() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpForm -->
+        <test-method signature="verifyPrivacyPolicyLink()[pri:0, instance:TestNG.FBcrome@2d7275fc]" started-at="2023-03-02T19:59:55 IST" name="verifyPrivacyPolicyLink" finished-at="2023-03-02T20:00:02 IST" duration-ms="7203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrivacyPolicyLink -->
+        <test-method is-config="true" signature="closeChildBrowser(org.testng.ITestResult)[pri:0, instance:TestNG.FBcrome@2d7275fc]" started-at="2023-03-02T20:00:02 IST" name="closeChildBrowser" finished-at="2023-03-02T20:00:03 IST" duration-ms="164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPrivacyPolicyLink status=SUCCESS method=FBcrome.verifyPrivacyPolicyLink()[pri:0, instance:TestNG.FBcrome@2d7275fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChildBrowser -->
+        <test-method is-config="true" signature="goToSignUpForm(java.lang.reflect.Method)[pri:0, instance:TestNG.FBcrome@2d7275fc]" started-at="2023-03-02T20:00:03 IST" name="goToSignUpForm" finished-at="2023-03-02T20:00:05 IST" duration-ms="2574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestNG.FBcrome.verifycookiesPolicyLink() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpForm -->
+        <test-method signature="verifycookiesPolicyLink()[pri:0, instance:TestNG.FBcrome@2d7275fc]" started-at="2023-03-02T20:00:05 IST" name="verifycookiesPolicyLink" finished-at="2023-03-02T20:00:10 IST" duration-ms="4619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycookiesPolicyLink -->
+        <test-method is-config="true" signature="closeChildBrowser(org.testng.ITestResult)[pri:0, instance:TestNG.FBcrome@2d7275fc]" started-at="2023-03-02T20:00:10 IST" name="closeChildBrowser" finished-at="2023-03-02T20:00:10 IST" duration-ms="460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifycookiesPolicyLink status=SUCCESS method=FBcrome.verifycookiesPolicyLink()[pri:0, instance:TestNG.FBcrome@2d7275fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChildBrowser -->
+        <test-method is-config="true" signature="goToSignUpForm(java.lang.reflect.Method)[pri:0, instance:TestNG.FBcrome@2d7275fc]" started-at="2023-03-02T20:00:10 IST" name="goToSignUpForm" finished-at="2023-03-02T20:00:12 IST" duration-ms="2098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestNG.FBcrome.verifytermsLink() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpForm -->
+        <test-method signature="verifytermsLink()[pri:0, instance:TestNG.FBcrome@2d7275fc]" started-at="2023-03-02T20:00:12 IST" name="verifytermsLink" finished-at="2023-03-02T20:00:17 IST" duration-ms="4925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytermsLink -->
+        <test-method is-config="true" signature="closeChildBrowser(org.testng.ITestResult)[pri:0, instance:TestNG.FBcrome@2d7275fc]" started-at="2023-03-02T20:00:17 IST" name="closeChildBrowser" finished-at="2023-03-02T20:00:17 IST" duration-ms="49" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytermsLink status=SUCCESS method=FBcrome.verifytermsLink()[pri:0, instance:TestNG.FBcrome@2d7275fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChildBrowser -->
+        <test-method is-config="true" signature="clearPOMObject()[pri:0, instance:TestNG.FBcrome@2d7275fc]" started-at="2023-03-02T20:00:17 IST" name="clearPOMObject" finished-at="2023-03-02T20:00:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNG.FBcrome@2d7275fc]" started-at="2023-03-02T20:00:17 IST" name="closeBrowser" finished-at="2023-03-02T20:00:19 IST" duration-ms="1433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNG.FBcrome -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite321 -->
+</testng-results>

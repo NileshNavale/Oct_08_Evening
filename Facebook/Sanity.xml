@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteFaceBook">
+  <test thread-count="5" name="VerifyLink">
+    <classes>
+       <class name="TestNG.FaceBookLearnNG"/>
+           
+       <class name="TestNG.FaceBookTestNG">
+		  <methods>
+			  <exclude name="verifytermsLink"/>	  
+		  </methods>
+      </class>
+    </classes>
+  </test> <!-- VerifyLink -->
+</suite> <!-- SuiteFaceBook -->
